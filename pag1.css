@@ -1,9 +1,24 @@
 body {
     background: linear-gradient(to bottom right, #6C3483, #2ECC71);
-    height: 100vh; /* se usa para representar una fracción del tamaño de la altura del área visible en la pantalla */
+    height: 100vh;
+    /* se usa para representar una fracción del tamaño de la altura del área visible en la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.contenedor {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 5px;
+    
+    
+}
 
-
-
+.email {
+    
 }
