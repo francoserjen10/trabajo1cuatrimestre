@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom right, #b96ad8, #25e776);
+    height: 100vh;
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor {
+    background-color: blue;
+    padding: 10px;
+}
+
+.titulo {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor-lista {
+    background-color: green;
+    padding: 10px;
+}
+
+.lista {
+    background-color: violet;
+    padding: 10px;
+}
+
+
+
+
+ul li {
+    background-color: darkgoldenrod;
+    padding: 10px;
+    border: 1px solid black;
+}

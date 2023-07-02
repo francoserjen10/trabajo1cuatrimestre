@@ -1,24 +1,74 @@
 body {
-    background: linear-gradient(to bottom right, #6C3483, #2ECC71);
+    background: linear-gradient(to bottom right, #65307a, #2ECC71);
     height: 100vh;
     /* se usa para representar una fracción del tamaño de la altura del área visible en la pantalla */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
 .contenedor {
     background-color: white;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     text-align: center;
     border: 5px solid white;
     border-radius: 5px;
-    
-    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
-.email {
-    
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 35px 0px;
+}
+
+
+.input {
+    outline: none;
+    border: none;
+    color: black;
+    border-bottom: 1px solid #65307a;
+    padding: 0px 5px;
+    font-size: 18px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.boton-iniciar-sesion {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #65307a, #2ECC71);
+    font-size: 18px;
+    width: 130px;
+
+}
+
+
+.link {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #65307a, #2ECC71);
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 130px;
+}
+
+.errores {
+    font-size: 12px;
+    color: red;
+
 }
