@@ -20,8 +20,8 @@ const validarEmail = email => {
     document.getElementById ('error_email').innerHTML = '';
   }
 
-  // ------>> Para redireccionarme al to do list si cumple los requisitos//
-  window.location.href = 'todolist.html';
+  // Para redireccionarme al to do list si cumple los requisitos
+  // window.location.href = 'todolist.html';
 };
 
 function existeEsteCaracter (cadenaAnalizar, caracterIngresado) {
