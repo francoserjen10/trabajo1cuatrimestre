@@ -15,7 +15,7 @@ const validarEmail = email => {
       '*El email es requerido';
   } else if (existeEsteCaracter (email, '@') == false) {
     document.getElementById ('error_email').innerHTML =
-      '*El email debe tener un caracter "@"';
+      '*Falta el caracter "@"';
   } else {
     document.getElementById ('error_email').innerHTML = '';
   }

@@ -2,37 +2,95 @@ body {
     background: linear-gradient(to bottom right, #b96ad8, #25e776);
     height: 100vh;
     padding: 10px;
+
+
+}
+
+
+
+.contenedor {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #FADBD8;
+    padding: 10px;
+    border: 5px solid #FADBD8;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
 }
 
-.contenedor {
-    background-color: blue;
-    padding: 10px;
-}
+
 
 .titulo {
-    background-color: red;
-    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 35px 0px;
     text-align: center;
+
 }
 
 .contenedor-lista {
-    background-color: green;
+    background-color: #FADBD8;
     padding: 10px;
+
+
+
 }
 
 .lista {
-    background-color: violet;
+    background-color: #FADBD8;
     padding: 10px;
+}
+
+.bi-check-circle {
+    background-color: #b96ad8;
+}
+
+.boton-ayuda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ayuda {
+    background-color: #FADBD8;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5px;
+}
+
+.ayuda a {
+    color: black;
+    text-decoration: none;
+}
+
+.boton {
+    background-color: #FADBD8;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5px;
+}
+
+.input {
+    outline: none;
+    border: none;
+    color: black;
+    border-bottom: 1px solid #65307a;
+    padding: 0px 5px;
+    font-size: 18px;
+    background-color: #FADBD8;
+
 }
 
 
 
 
 ul li {
-    background-color: darkgoldenrod;
+    background-color: #fadbd800;
     padding: 10px;
     border: 1px solid black;
+    border-radius: 5px;
 }
