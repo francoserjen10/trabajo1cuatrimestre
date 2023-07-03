@@ -1,6 +1,5 @@
 body {
-    background: linear-gradient(to bottom right, #b96ad8, #25e776);
-    height: 100vh;
+    background: linear-gradient(to bottom right, #65307a, #2ECC71);
     padding: 10px;
 
 
@@ -99,7 +98,6 @@ ul li {
     border-radius: 5px;
     display: flex;
     word-break: break-word;
-    word-wrap: break-word;
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
@@ -118,4 +116,9 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.carousel-inner {
+    margin-top: 500px;
+
 }
