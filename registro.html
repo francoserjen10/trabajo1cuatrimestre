@@ -16,26 +16,32 @@
             <h1>Registrate</h1>
         </div>
 
-        <form>
+        <form id="formulario">
             <div class="contenedor-input">
                 <div>
-                    <input class=" input" type="text" name="nombre-apellido" id="nombre-apellido"
+                    <input class=" input" type="text" name="nombreApellido" id="nombreApellido"
                         placeholder="Nombre y Apellido">
                 </div>
                 <div>
-                    <input class=" input" type="email" name="email" id="email" placeholder="Email">
+                    <input class=" input" type="" name="email" id="email" placeholder="Email">
+                    <h4 id="erroresMail" class="errores"></h4>
                 </div>
                 <div>
-                    <input class=" input" type="password" name="contraseña" id="contraseña"
+                    <input class=" input" type="password" name="contrasena" id="contrasena"
                         placeholder="Nueva Contraseña">
+
                 </div>
                 <div>
-                    <input class=" input" type="password" name="contraseña" id="contraseña-1" placeholder="Contraseña">
+                    <input class=" input" type="password" name="contrasenaRepetida" id="contrasenaRepetida"
+                        placeholder="Contraseña">
+                    <h4 id="erroresContrasena" class="errores"></h4>
                 </div>
+
+
             </div>
             <div class="contenedor-botones">
                 <div>
-                    <input class="boton" type="submit" value="Aceptar">
+                    <button class="boton" type="submit" value="Aceptar">Aceptar</button>
                 </div>
                 <div class="registro">
                     <a class="link" href="pag1.html">Inicio</a>
@@ -57,7 +63,7 @@
 
 
 
-
+    <script src="registro.js"></script>
 </body>
 
 </html>

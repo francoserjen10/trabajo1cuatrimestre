@@ -1,8 +1,8 @@
 const formulario = document.getElementById ('formulario');
 formulario.addEventListener ('submit', function enviar (e) {
   e.preventDefault ();
-  let formData = new FormData (formulario);
-  let contraseña = formData.get ('contraseña');
+  let formData = new FormData (formulario); //FormData es una forma de recopilar y enviar datos de un formulario HTML mediante JavaScript
+  let contraseña = formData.get ('contraseña'); //obtener el valor de un campo específico en el formulario.
   let email = formData.get ('email');
   console.log ('contraseña', contraseña);
   console.log ('email', email);
@@ -19,9 +19,6 @@ const validarEmail = email => {
   } else {
     document.getElementById ('error_email').innerHTML = '';
   }
-
-  // Para redireccionarme al to do list si cumple los requisitos
-  // window.location.href = 'todolist.html';
 };
 
 function existeEsteCaracter (cadenaAnalizar, caracterIngresado) {

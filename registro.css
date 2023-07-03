@@ -11,8 +11,8 @@ body {
 
 .contenedor {
     background-color: white;
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 430px;
     text-align: center;
     border: 5px solid white;
     border-radius: 5px;
@@ -28,7 +28,7 @@ body {
 .contenedor-input {
     display: flex;
     flex-direction: column;
-
+    margin: 15px 0px;
 }
 
 
@@ -39,6 +39,7 @@ body {
     border-bottom: 1px solid #65307a;
     padding: 5px 5px;
     font-size: 18px;
+
 }
 
 .contenedor-botones {
@@ -73,4 +74,10 @@ body {
     text-decoration: none;
     display: block;
     width: 130px;
+}
+
+.errores {
+    font-size: 12px;
+    color: red;
+
 }
