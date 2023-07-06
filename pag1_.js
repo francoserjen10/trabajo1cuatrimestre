@@ -7,6 +7,7 @@ formulario.addEventListener ('submit', function enviar (e) {
   console.log ('contraseña', contraseña);
   console.log ('email', email);
   validarEmail (email);
+  window.location.href = 'todolist.html';
 });
 
 const validarEmail = email => {
