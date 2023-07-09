@@ -16,7 +16,7 @@ body {
     border: 5px solid #FADBD8;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+    word-break: break-word;
 
 }
 
@@ -29,18 +29,16 @@ body {
 
 }
 
-.contenedor-lista {
+.contenedorTareas {
     background-color: #FADBD8;
     padding: 10px;
-
-
 
 }
 
-.lista {
-    background-color: #FADBD8;
-    padding: 10px;
-
+.tareasAgregarTareas {
+    display: flex;
+    justify-content: space-between;
+    word-break: break-word;
 
 }
 
@@ -48,11 +46,11 @@ body {
     background-color: #b96ad8;
 }
 
-.boton-ayuda {
+.contenedorAyuda {
     display: flex;
-    justify-content: space-between;
-    word-break: break-word;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+
+
 }
 
 .ayuda {
@@ -61,6 +59,8 @@ body {
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding: 5px;
+    width: 80px;
+
 }
 
 .ayuda a {
@@ -121,4 +121,8 @@ ul li {
 .carousel-inner {
     margin-top: 500px;
 
+}
+
+.carousel-control-prev-icon .carousel-control-next-icon {
+    filter: invert(108%);
 }
