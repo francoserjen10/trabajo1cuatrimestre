@@ -119,10 +119,6 @@ ul li {
 }
 
 .carousel-inner {
-    margin-top: 500px;
+    margin-top: 400px;
 
-}
-
-.carousel-control-prev-icon .carousel-control-next-icon {
-    filter: invert(108%);
 }
